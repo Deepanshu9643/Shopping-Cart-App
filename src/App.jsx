@@ -6,10 +6,7 @@ import MyCartPage from './pages/MyCartPage';
 const App = () => {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home Page</Link>
-        <Link to="/cart">Cart Page</Link>
-      </nav>
+     
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cart" element={<MyCartPage />} />
