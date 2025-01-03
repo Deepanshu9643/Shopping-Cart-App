@@ -83,17 +83,14 @@ body {
 }
 
 .product button {
-  padding: 10px 15px;
-  background-color: #007bff;
+  padding: 10px 100px;
+  background-color: black;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
 
-.product button:hover {
-  background-color: #0056b3;
-}
 
 /* Cart Layout */
 .cart-layout {
@@ -134,8 +131,8 @@ body {
 }
 
 .cart-item button {
-  padding: 8px 12px;
-  background-color: #dc3545;
+  padding: 8px 30px;
+  background-color: black;
   color: #fff;
   border: none;
   border-radius: 3px;
